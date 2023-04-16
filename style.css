@@ -1,0 +1,170 @@
+/* body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  ul {
+    margin-top: 20px;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+
+ */
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+
+  }
+
+  select,input {
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  input,select:focus {
+    border: 3px solid #777676;
+  }
+  
+ 
+  
+  form {
+    display: table-cell;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: last baseline; */
+    /* align-items: flex-start; */
+    /* margin-bottom: 20px; */
+  }
+  
+  .form-group {
+    margin: 10px;
+    width: 500px;
+    /* display: flex; */
+  }
+  
+  label {
+    display: block;
+    font-weight: bolder;
+    font-size: small;
+    margin-bottom: 10px;
+  }
+  
+  select,
+  input[type="number"] {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  #recommendations {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    /* border-bottom: 2px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+  }
+  tr {
+    border-bottom: 2px solid #dddddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
